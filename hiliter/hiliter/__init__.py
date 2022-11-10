@@ -38,7 +38,7 @@ def argument_parsing():
             lexer = lexers.get_lexer_by_name(lexer)
         except ClassNotFound:
             lexer = None
-            print('Could not find requested lexer, guessing from file contents')
+            print('Could not find requested lexer, making a wild guess')
     return infile, lexer
 
 if __name__=='__main__':
