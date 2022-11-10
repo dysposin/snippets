@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # rotate display on ubuntu
+# check your input devices name with `xinput list`
 
 input_device="AlpsPS/2 ALPS GlidePoint"
 echo "$input_device Coordinate Transformation Matrix 0 -1 1 1 0 0 0 0 1" 
